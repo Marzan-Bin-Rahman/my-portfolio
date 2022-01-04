@@ -54,3 +54,44 @@ h1{
     margin-top: 60px;
     margin-right: 100px;
 }
+
+h2{
+    font-size: 35px;
+}
+
+.box{
+    width: 35%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 40px rgb(102, 98, 98);
+    border-radius: 10px;
+    margin: 0px 5%;
+}
+
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 200px;
+    margin-bottom: 150px !important;
+}
+
+.full{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, rgb(219, 91, 77));
+    border-image-slice: 1;
+}
+
+.baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(17, 204, 179));
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:black
+}
